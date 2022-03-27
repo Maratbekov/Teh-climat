@@ -131,12 +131,16 @@ button {
   color: #FFFFFF;
 }
 
-#text .text {
+#hero {
+  background: url("../img/bg.png") no-repeat center/cover;
+  height: 1075px;
+}
+#hero .hero__text {
   position: absolute;
   padding: 190px 0;
   width: 85%;
 }
-#text .text__title {
+#hero .hero__text__title {
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -145,7 +149,7 @@ button {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-#text .text__wrapper {
+#hero .hero__text__wrapper {
   text-align: center;
   font-style: normal;
   font-weight: 700;
@@ -159,14 +163,13 @@ button {
   margin-top: 20px;
   margin-left: 343px;
 }
-
-#card .container .card {
+#hero .hero__card {
   display: flex;
   position: absolute;
   padding-top: 800px;
   width: 85%;
 }
-#card .container .card__cards {
+#hero .hero__card__cards {
   margin: 0 15px;
   width: 253px;
   height: 237px;
@@ -176,10 +179,10 @@ button {
   padding-top: 20px;
   padding-left: 25px;
 }
-#card .container .card__3 {
+#hero .hero__card__3 {
   padding-top: 26px;
 }
-#card .container .card__item {
+#hero .hero__card__item {
   padding-top: 6px;
   font-style: normal;
   font-weight: 400;
@@ -188,7 +191,7 @@ button {
   letter-spacing: 0.44px;
   color: #263238;
 }
-#card .container .card__text {
+#hero .hero__card__text {
   padding-bottom: 10px;
   margin-bottom: 10px;
   padding-left: 30px;
@@ -199,11 +202,6 @@ button {
   color: #263238;
   border-bottom: solid 1px rgba(0, 0, 255, 0.54);
   width: 200px;
-}
-
-#hero {
-  background: url("../img/bg.png") no-repeat center/cover;
-  height: 1075px;
 }
 
 #home {
@@ -316,7 +314,6 @@ button {
   text-align: center;
   letter-spacing: 0.44px;
   color: #263238;
-  background: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

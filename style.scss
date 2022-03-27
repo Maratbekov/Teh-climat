@@ -139,46 +139,44 @@
 
 }
 
-#text {
-  .text {
-    position: absolute;
-    padding: 190px 0;
-    width: 85%;
+#hero {
+  background: url("../img/bg.png") no-repeat center/cover;
+  height: 1075px;
+  .hero {
+    &__text {
+      position: absolute;
+      padding: 190px 0;
+      width: 85%;
 
-    &__title {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 48px;
-      line-height: 56px;
-      text-align: center;
-      text-transform: uppercase;
-      color: #FFFFFF;
+      &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+
+      &__wrapper {
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        color: #769D25;
+        padding: 8x;
+
+        height: 35px;
+        width: 414px;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 51.04%, rgba(255, 255, 255, 0) 100%);
+        margin-top: 20px;
+        margin-left: 343px;
+
+      }
+
     }
-
-    &__wrapper {
-      text-align: center;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 24px;
-      text-transform: uppercase;
-      color: #769D25;
-      padding: 8x;
-
-      height: 35px;
-      width: 414px;
-      background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 51.04%, rgba(255, 255, 255, 0) 100%);
-      margin-top: 20px;
-      margin-left: 343px;
-
-    }
-
-  }
-
-}
-
-#card {
-  .container {
-    .card {
+    &__card {
       display: flex;
       position: absolute;
       padding-top: 800px;
@@ -224,16 +222,7 @@
       }
     }
 
-
   }
-
-
-}
-
-#hero {
-  background: url("../img/bg.png") no-repeat center/cover;
-
-  height: 1075px;
 
 
 }
@@ -330,16 +319,7 @@
       text-align: center;
       letter-spacing: 0.44px;
       color:  #263238;;
-      background: #000;
 
     }
   }
 }
-
-//#project{
-//  .project{
-//    position: absolute;
-//    text-align: center;
-//  }
-//
-//}
