@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.scss">
     <title>Teh-Climat</title>
 </head>
 <body>
@@ -38,7 +39,9 @@
 <section id="navbar">
     <div class="container">
         <div class="navbar">
-            <button class="navbar__btn">Обычные On/Off</button>
+            <div class="navbar__link">
+                <a class="navbar__link__menu" href="">Обычные On/Off</a>
+            </div>
             <div class="navbar__link">
                 <a class="navbar__link__menu" href="">Инверторные</a>
             </div>
@@ -659,11 +662,8 @@
             </div>
 
         </div>
-
-
     </div>
 </section>
-
 
 <section id="maine">
     <div class="container">
@@ -672,7 +672,6 @@
             <div class="maine__wrap1">
                 <img src="./img/wonam%201.svg" alt="">
                 <div class="maine__wrap">
-
                     <p class="maine__wrapper">
                         Профессиональный монтаж кондиционера – залог его долгой и <br>надежной работы. В нашей компании
                         работают опытные бригады
@@ -700,12 +699,10 @@
                         организации.
 
                     </p>
-
                 </div>
             </div>
-
-
         </div>
+
         <div class="standard">
             <h1 class="standard__text">Стандартный монтаж включает:</h1>
 
@@ -722,7 +719,8 @@
                         <h1 class="standard__title">2</h1>
                     </div>
                     <div class="standard__div1">
-                        <h5 class="standard__div3">Установка внешнего блока <br> кондиционера под окном на <br> несущую стену<br> кронштейнов</h5>
+                        <h5 class="standard__div3">Установка внешнего блока <br> кондиционера под окном на <br> несущую
+                            стену<br> кронштейнов</h5>
                     </div>
                 </div>
                 <div class="standard2">
@@ -730,7 +728,8 @@
                         <h1 class="standard__title">3</h1>
                     </div>
                     <div class="standard__div1">
-                        <h5 class="standard__div3">Прокладывание коммуникаци <br> (5 метров входит в <br> стандартный монтаж)</h5>
+                        <h5 class="standard__div3">Прокладывание коммуникаци <br> (5 метров входит в <br> стандартный
+                            монтаж)</h5>
                     </div>
                 </div>
                 <div class="standard2">
@@ -761,15 +760,66 @@
         </div>
         <div class="ourwork">
             <h2 class="ourwork__title">Примеры наших работ</h2>
-            <div class="ourwork__pic">
-                <img src="./img/ourwork1.svg" alt="">
-                <img src="./img/ourwork2.svg" alt="">
-                <img src="./img/ourwork3.svg" alt="">
-                <img src="./img/ourwork4.svg" alt="">
-            </div>
+            <!--            <div class="ourwork__pic">-->
+            <img class="ourwork__pic" src="./img/ourwork1.svg" alt="">
+            <img class="ourwork__pic" src="./img/ourwork2.svg" alt="">
+            <img class="ourwork__pic" src="./img/ourwork3.svg" alt="">
+            <img class="ourwork__pic" src="./img/ourwork4.svg" alt="">
+            <!--            </div>-->
             <button class="ourwork__btn">Заказать монтаж</button>
+
+        </div>
+    </div>
+
+    <div class="questions">
+        <div class="container">
+            <p class="questions__title">Часто задаваемые вопросы</p>
+            <h5 class="questions__wrap">Как рассчитать мощность кондиционера?</h5>
+            <p class="questions__quote">Гарантийное обслуживание в случае возвращения насекомых в течение года
+                предоставляется бесплатно! Мы полностью
+                <br> уверены в эффективности применяемых нами препаратов и квалификации сотрудников. Стоимость услуг
+                оговаривается
+                <br> заранее.</p>
+            <p class="questions__wrap2">Инверторный или стандартный? В чем отличие и какой лучше?</p>
+            <p class="questions__wrap2">Можно ли включать сплит систему в зимнее время на обогрев?</p>
+            <p class="questions__wrap2">Можно ли охладить 1 кондиционером сразу 2 комнаты?</p>
+            <p class="questions__wrap2">Когда производить монтаж – до или после ремонта?</p>
+            <div class="questions__link">
+                <a href="" class="questions__link__btn">Смотреть все вопросы</a>
+            </div>
+            <div class="certificates">
+                <h2 class="certificates__text">Сертификаты</h2>
+                <div class="certificates__img">
+                    <img src="./img/certificates1.svg" alt="">
+                    <img src="./img/sertificates2.svg" alt="">
+                    <img src="./img/certificates3.svg" alt="">
+                </div>
+            </div>
+            <div class="company">
+                <img src="./img/mitsu.svg" alt="">
+                <img src="./img/daikin.svg" alt="">
+                <img src="./img/panasonik.svg" alt="">
+                <img src="./img/gree.svg" alt="">
+                <img src="./img/aermec.svg" alt="">
+                <img src="./img/mc.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <h2 class="footer__title">Отзывы наших клиентов</h2>
+            <div class="footer__link">
+                <a class="footer__link__btn1" href="">Видеоотзывы</a>
+                <a class="footer__link__btn2" href="">Отзывы</a>
+            </div>
+        </div>
+        <div class="footer__img">
+            <img src="./img/woman.svg" alt="">
+            <img src="./img/man.svg" alt="">
+            <img src="./img/girle.svg" alt="">
         </div>
     </div>
 </section>
+
 </body>
 </html>
